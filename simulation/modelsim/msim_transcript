@@ -1,0 +1,46 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do LED_Blink_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Joel-/Desktop/Civ_Data/Digital_Electronics/VHDL/Labbar/Lab3/led_blink.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LED_Blink
+# -- Compiling architecture rtl of LED_Blink
+# 
+vsim work.led_blink
+# vsim work.led_blink 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.led_blink(rtl)
+add wave -position end  sim:/led_blink/clock_50
+add wave -position end  sim:/led_blink/key_n
+add wave -position end  sim:/led_blink/ledr
+add wave -position end  sim:/led_blink/ledg
+add wave -position end  sim:/led_blink/s_reset_n
+add wave -position end  sim:/led_blink/s_counter_500ms
+add wave -position end  sim:/led_blink/s_tick
+add wave -position end  sim:/led_blink/s_led
+
+
+do ../../run_sim.txt
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dice_roll
+# -- Compiling architecture rtl of dice_roll
